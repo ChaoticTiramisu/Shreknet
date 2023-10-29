@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    
+}
+
+img {
+    max-width: 300px;
+    background-image: radial-gradient(whitesmoke,black 70%);
+}
+
+p {
+    border-radius: 8px;
+
+}
+
+span {
+    background: rgba(128, 128, 128, .20);
+    border-radius: 12px;
+    background-size: 150%;
+}
+
+.button {
+    background-color: black;
+    color: whitesmoke;
+}

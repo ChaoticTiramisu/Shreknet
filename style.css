@@ -1,0 +1,62 @@
+@keyframes hover {
+    from {font-size: 100%;}
+    to {font-size: 125%;}
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: black
+}
+
+
+h1 {
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 2%;
+    background-color: rgba(0,0,0,100);
+
+}
+
+.grid-container {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill,250px) ;
+    border: black solid 1px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.grid-item {
+    width: auto;
+    height: auto;
+    border: black solid 1px;
+    padding: 20px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+    
+
+}
+
+.grid-img {
+    height: 50%;
+    width: 50%;
+}
+
+.grid-item:hover {
+    transform: scale(1.1);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+;
+}
