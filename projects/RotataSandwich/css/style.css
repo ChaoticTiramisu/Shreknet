@@ -9,7 +9,7 @@ body {
     display: grid;
     background-color: transparent;
     list-style: none;
-    margin: auto;
+    margin: 0 auto;
     max-width: 400px;
 
 }
