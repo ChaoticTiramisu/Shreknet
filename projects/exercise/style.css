@@ -1,0 +1,31 @@
+body {
+    background-image: url(images/annie-spratt-x9UIZsseXb0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    padding: 16px 14px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+
+
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+    border: black 1px solid;
+    
+}
