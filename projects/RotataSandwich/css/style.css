@@ -1,34 +1,48 @@
 body {
-    background-color: black;
+    background-color: #333;
     font-family: 'Roboto', sans-serif;
-    color: whitesmoke;
+    color: black;
     
 }
 
+.card-container ul{
+    display: grid;
+    background-color: transparent;
+    list-style: none;
+    margin: auto;
+    max-width: 400px;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+    text-align: center;
+    background-color: white;
+    margin: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
 img {
-    max-width: 300px;
-    background-image: radial-gradient(whitesmoke,black 70%);
+    max-width: 100%;
 }
 
-p {
-    border-radius: 8px;
-
-}
-
-span {
-    background: rgba(128, 128, 128, .20);
-    border-radius: 12px;
-    background-size: 150%;
-}
-
-.button {
-    background-color: #333;
+button {
+    background-color: #444;
     color: whitesmoke;
     border: none;
-    border-radius: 2px;
+    border-radius: 12px;
     padding: 10px;
+    width: 100%;
 }
 
-.button:hover {
-    transform: scale(1.1);
+button:hover {
+    opacity: 0.8;
 }
