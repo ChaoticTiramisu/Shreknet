@@ -50,3 +50,8 @@ button:hover {
 audio {
     position: fixed;
 }
+
+video {
+    width: 100vh;
+    object-fit: cover;
+}
